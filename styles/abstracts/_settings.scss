@@ -1,0 +1,64 @@
+// ::selection {
+//   background: #68c9e5 !important;
+// }
+
+// body {
+//   background: $offWhite;
+// }
+
+.wrap {
+  @apply w-full px-2 lg:px-9;
+}
+
+.wrap-max {
+  @apply w-full px-4 lg:px-9 mx-auto max-w-screen-3xl;
+}
+
+.aspect-square {
+  &::after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+}
+
+.aspect-4_3 {
+  &::after {
+    content: "";
+    display: block;
+    padding-top: 75%;
+  }
+}
+
+.aspect-3_2 {
+  &::after {
+    content: "";
+    display: block;
+    padding-top: 66.67%;
+  }
+}
+
+.aspect-16_9 {
+  &::after {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+  }
+}
+
+.linkclass {
+  font-size: 18vmin;
+  line-height: 0.9;
+  @include mq(lg) {
+    font-size: 14vmin;
+  }
+}
+
+// stack elements with css grid - without position absolute
+.stack > * {
+  grid-area: 1 / 1;
+}
+
+.clip-path-reveal-img {
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+}

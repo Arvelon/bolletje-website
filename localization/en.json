@@ -1,0 +1,28 @@
+{
+  "home": {
+    "metaTitle": "Add metatitle",
+    "metaDescription": "Add metadescription"
+  },
+  "work": {
+    "metaTitle": "Add metatitle",
+    "metaDescription": "Add metadescription"
+  },
+  "about": {
+    "metaTitle": "Add metatitle",
+    "metaDescription": "Add metadescription"
+  },
+  "contact": {
+    "metaTitle": "Add metatitle",
+    "metaDescription": "Add metadescription"
+  },
+  "services": {
+    "metaTitle": "Add metatitle",
+    "metaDescription": "Add metadescription"
+  },
+  "footer": {
+    "text1": "Feel free to ping us a"
+  },
+  "nav": {
+    "work": "Work"
+  }
+}

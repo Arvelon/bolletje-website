@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "styles/abstracts/fonts", "styles/abstracts/variables",
+  "styles/abstracts/mixins", "styles/abstracts/settings",
+  "styles/abstracts/typography", "styles/abstracts/animations",
+  "styles/abstracts/buttons";
